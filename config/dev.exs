@@ -3,8 +3,8 @@ import Config
 # Configure your database
 config :app, App.Repo,
   username: "postgres",
-  password: "130813",
-  hostname: "192.168.0.113",
+  password: "postgres",
+  hostname: "localhost",
   database: "app_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
